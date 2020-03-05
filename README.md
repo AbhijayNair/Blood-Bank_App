@@ -1,4 +1,4 @@
-# cloudcomputing_Blood-Bank
+# Cloud Based Blood Bank System
 The software system is an online blood bank management system that helps in managing
 various blood bank operations effectively. The project consists of a central repository
 containing various blood deposits available along with associated details hosted on windows

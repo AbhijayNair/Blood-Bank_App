@@ -7,4 +7,4 @@ details help in maintaining and monitoring the blood deposits. The project is an
 that allows to check whether required blood deposits of a particular group are available in the
 blood bank efficiently using cloud server. Moreover the system also has added features such
 as patient name and contacts, blood booking and even need for certain blood group is posted
-on the website to find available donors for a blood emergency.
+on the application to find available donors for a blood emergency.

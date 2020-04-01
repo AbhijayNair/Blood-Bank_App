@@ -5,7 +5,7 @@
     <string name="title_donors">Profile</string>
     <string name="login">LOGIN</string>
     <string name="sign_up">SIGN UP</string>
-    <string name="web_client_id">1056811415411-shuiel4n60lcrgmaoeneoq0i4j5kk0t7.apps.googleusercontent.com</string>
+    <string name="web_client_id">*id here*</string>
     <string name="bg_prompt">Blood Group</string>
     <string-array name="blood_groups">
         <item>A+ve</item>

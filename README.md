@@ -20,3 +20,4 @@ on the application to find available donors for a blood emergency.
 * When a user submits a donor details card, it is instantly updated in the database with a status flag
   * P stands for pending, Initially all the donors have a P status. When the admin changes it to A, all the app users can see that donor on their phones in realtime.
 * FAQs can be added by the donor without the need of updating the app in addition, notifications can also be sent.
+* To successfully build the app, you need to add the google-services.json file which can be downloaded from your firebase console. If you're a part of the project team, ping me for the file.

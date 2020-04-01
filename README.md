@@ -13,3 +13,10 @@ on the application to find available donors for a blood emergency.
 * Figma - Designing the user interface
 * Android Studio - To create the android application
 * Firebase by Google - Cloud Services: Storage, Authentication
+
+## Procedure
+* To run the app build the project using android studio
+* The app uses firebase database to store the users, blood details and FAQs
+* When a user submits a donor details card, it is instantly updated in the database with a status flag
+  * P stands for pending, Initially all the donors have a P status. When the admin changes it to A, all the app users can see that donor on their phones in realtime.
+* FAQs can be added by the donor without the need of updating the app in addition, notifications can also be sent.

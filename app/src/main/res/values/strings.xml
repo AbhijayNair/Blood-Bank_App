@@ -1,0 +1,20 @@
+<resources>
+    <string name="app_name">Blood Bank</string>
+    <string name="title_home">Home</string>
+    <string name="title_alert">Alerts</string>
+    <string name="title_donors">Profile</string>
+    <string name="login">LOGIN</string>
+    <string name="sign_up">SIGN UP</string>
+    <string name="web_client_id">1056811415411-shuiel4n60lcrgmaoeneoq0i4j5kk0t7.apps.googleusercontent.com</string>
+    <string name="bg_prompt">Blood Group</string>
+    <string-array name="blood_groups">
+        <item>A+ve</item>
+        <item>B+ve</item>
+        <item>O+ve</item>
+        <item>A-ve</item>
+        <item>B-ve</item>
+        <item>O-ve</item>
+        <item>AB+ve</item>
+        <item>AB-ve</item>
+    </string-array>
+</resources>

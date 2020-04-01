@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#1a1a1a">
+
+    <TextView
+        android:id="@+id/text"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginRight="8dp"
+        android:padding="16dp"
+        android:text="Enter your information below to apply for donation"
+        android:textColor="#ffffff"
+        android:textSize="48sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <com.google.android.material.textfield.TextInputEditText
+        android:id="@+id/name_inp"
+        android:layout_width="363dp"
+        android:inputType="textPersonName"
+        android:layout_height="62dp"
+        android:maxLines="1"
+        android:layout_marginTop="40dp"
+        android:textColor="#ffffff"
+        android:layout_marginEnd="24dp"
+        android:layout_marginRight="24dp"
+        android:background="@drawable/rounded_input"
+        android:hint="Name"
+        android:padding="16dp"
+        android:textColorHint="#b3ffffff"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/text" />
+
+    <org.angmarch.views.NiceSpinner
+        android:id="@+id/bg_inp"
+        android:layout_width="363dp"
+        android:layout_height="62dp"
+        app:textTint="#000000"
+        android:backgroundTint="#33000000"
+        android:layout_marginTop="16dp"
+        android:layout_marginEnd="24dp"
+        android:layout_marginRight="24dp"
+        android:entries="@array/blood_groups"
+        android:background="@drawable/rounded_input"
+        android:padding="16dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/name_inp" />
+    <com.google.android.material.textfield.TextInputEditText
+        android:id="@+id/loc_inp"
+        android:layout_width="363dp"
+        android:layout_height="62dp"
+        android:maxLines="1"
+        android:inputType="textCapWords"
+        android:layout_marginTop="16dp"
+        android:layout_marginEnd="24dp"
+        android:layout_marginRight="24dp"
+        android:textColor="#ffffff"
+        android:background="@drawable/rounded_input"
+        android:hint="Location"
+        android:padding="16dp"
+        android:textColorHint="#b3ffffff"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/bg_inp" />
+
+    <com.google.android.material.textfield.TextInputEditText
+        android:id="@+id/phone_inp"
+        android:layout_width="363dp"
+        android:layout_height="62dp"
+        android:inputType="phone"
+        android:maxLines="1"
+        android:layout_marginTop="16dp"
+        android:background="@drawable/rounded_input"
+        android:hint="Phone Number"
+        android:textColor="#ffffff"
+        android:padding="16dp"
+        android:textColorHint="#b3ffffff"
+        app:layout_constraintEnd_toEndOf="@id/bg_inp"
+        app:layout_constraintTop_toBottomOf="@+id/loc_inp" />
+
+    <Button
+        android:id="@+id/submit_btn"
+        android:layout_width="363dp"
+        android:layout_height="62dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginTop="24dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginRight="8dp"
+        android:text="Submit"
+        android:textSize="24sp"
+        android:layout_marginBottom="8dp"
+        android:background="@drawable/rounded_btn_signup"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/phone_inp" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
